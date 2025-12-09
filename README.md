@@ -27,25 +27,25 @@ Although airplanes travel much faster than high-speed rail, the overall travel t
 
 
 ### Section 2: Methodology
-        We consider a high-speed rail line in Japan from Tokyo to Hakata, which is over 1000 km, to examine how changes in different scenarios affect the competitive range of high-speed rail. The total time cost consists of 4 components.
-        1. Access time to Haneda Airport and Tokyo Station
-            Travel demand is randomly generated at stations along the Yamanote Line, which is a circular rail system within Tokyo. The travel time between adjacent stations is approximately 2–3 minutes. For simplicity, we set it to 2 minutes in this model. The high-speed rail station is located at Tokyo Station. Passengers traveling to Haneda Airport must transfer at Hamamatsucho Station to the Tokyo Monorail. The transfer waiting time is assumed to follow a uniform distribution between 1-4 minutes, and the in-vehicle travel time on the monorail is 25 minutes.
+We consider a high-speed rail line in Japan from Tokyo to Hakata, which is over 1000 km, to examine how changes in different scenarios affect the competitive range of high-speed rail. The total time cost consists of 4 components.
+1. Access time to Haneda Airport and Tokyo Station
+    Travel demand is randomly generated at stations along the Yamanote Line, which is a circular rail system within Tokyo. The travel time between adjacent stations is approximately 2–3 minutes. For simplicity, we set it to 2 minutes in this model. The high-speed rail station is located at Tokyo Station. Passengers traveling to Haneda Airport must transfer at Hamamatsucho Station to the Tokyo Monorail. The transfer waiting time is assumed to follow a uniform distribution between 1-4 minutes, and the in-vehicle travel time on the monorail is 25 minutes.
 
-        2. Processing time in airports and stations
-            The processing time at high-speed rail stations is assumed to follow a uniform distribution between 20-30 minutes. This includes ticket inspection, passing through the gates, walking to the platform, waiting for the train, and boarding. For air travel, the processing time is assumed to follow a uniform distribution between 60-90 minutes, including baggage drop-off, check-in, security screening, walking to the gate, waiting for the airplane, and boarding.
+2. Processing time in airports and stations
+    The processing time at high-speed rail stations is assumed to follow a uniform distribution between 20-30 minutes. This includes ticket inspection, passing through the gates, walking to the platform, waiting for the train, and boarding. For air travel, the processing time is assumed to follow a uniform distribution between 60-90 minutes, including baggage drop-off, check-in, security screening, walking to the gate, waiting for the airplane, and boarding.
 
-        3. In-vehicle travel time
-            The in-vehicle travel times for high-speed rail and airplanes are obtained from the timetables provided by the rail and airline companies, as shown below.
-            (1). Tokyo -> Nagoya    : 366    km,  97 mins (HSR),  60 mins (Flight)
-            (2). Tokyo -> Osaka     : 552.6  km, 150 mins (HSR),  70 mins (Flight)
-            (3). Tokyo -> Okayama   : 732.9  km, 190 mins (HSR),  80 mins (Flight)
-            (4). Tokyo -> Hiroshima : 894.2  km, 230 mins (HSR),  90 mins (Flight)
-            (5). Tokyo -> Hekata    : 1174.9 km, 300 mins (HSR), 130 mins (Flight)
-        
-        4. Return time
-            The return time represents the travel time from the high-speed rail station or airport back to the city’s downtown area. To simplify the model, we assume that the high-speed rail station is already located in the downtown area. Therefore, its return time is set to 0 minutes. For flights, the return time follows a uniform distribution between 60-90 minutes, including getting off the plane, baggage claim, and traveling back to downtown by bus or rail.
-        
-        The total time cost is calculated for each travel demand, and then the average is computed over all demands. The average time cost for high-speed rail and air travel is plotted as a function of distance across different scenarios.
+3. In-vehicle travel time
+    The in-vehicle travel times for high-speed rail and airplanes are obtained from the timetables provided by the rail and airline companies, as shown below.
+    (1). Tokyo -> Nagoya    : 366    km,  97 mins (HSR),  60 mins (Flight)
+    (2). Tokyo -> Osaka     : 552.6  km, 150 mins (HSR),  70 mins (Flight)
+    (3). Tokyo -> Okayama   : 732.9  km, 190 mins (HSR),  80 mins (Flight)
+    (4). Tokyo -> Hiroshima : 894.2  km, 230 mins (HSR),  90 mins (Flight)
+    (5). Tokyo -> Hekata    : 1174.9 km, 300 mins (HSR), 130 mins (Flight)
+
+4. Return time
+    The return time represents the travel time from the high-speed rail station or airport back to the city’s downtown area. To simplify the model, we assume that the high-speed rail station is already located in the downtown area. Therefore, its return time is set to 0 minutes. For flights, the return time follows a uniform distribution between 60-90 minutes, including getting off the plane, baggage claim, and traveling back to downtown by bus or rail.
+
+The total time cost is calculated for each travel demand, and then the average is computed over all demands. The average time cost for high-speed rail and air travel is plotted as a function of distance across different scenarios.
 
 
     Section 3: Results and Discussions
