@@ -35,12 +35,14 @@ We consider a high-speed rail line in Japan from Tokyo to Hakata, which is over 
     The processing time at high-speed rail stations is assumed to follow a uniform distribution between 20-30 minutes. This includes ticket inspection, passing through the gates, walking to the platform, waiting for the train, and boarding. For air travel, the processing time is assumed to follow a uniform distribution between 60-90 minutes, including baggage drop-off, check-in, security screening, walking to the gate, waiting for the airplane, and boarding.
 
 3. In-vehicle travel time
-    The in-vehicle travel times for high-speed rail and airplanes are obtained from the timetables provided by the rail and airline companies, as shown below.  
+    The in-vehicle travel times for high-speed rail and airplanes are obtained from the timetables provided by the rail and airline companies, as shown below.
+    <pre style="white-space: pre-wrap;">
     (1). Tokyo -> Nagoya    : 366    km,  97 mins (HSR),  60 mins (Flight)  
     (2). Tokyo -> Osaka     : 552.6  km, 150 mins (HSR),  70 mins (Flight)  
     (3). Tokyo -> Okayama   : 732.9  km, 190 mins (HSR),  80 mins (Flight)  
     (4). Tokyo -> Hiroshima : 894.2  km, 230 mins (HSR),  90 mins (Flight)  
-    (5). Tokyo -> Hekata    : 1174.9 km, 300 mins (HSR), 130 mins (Flight)  
+    (5). Tokyo -> Hekata    : 1174.9 km, 300 mins (HSR), 130 mins (Flight)
+    </pre>
 
 4. Return time
     The return time represents the travel time from the high-speed rail station or airport back to the city’s downtown area. To simplify the model, we assume that the high-speed rail station is already located in the downtown area. Therefore, its return time is set to 0 minutes. For flights, the return time follows a uniform distribution between 60-90 minutes, including getting off the plane, baggage claim, and traveling back to downtown by bus or rail.
