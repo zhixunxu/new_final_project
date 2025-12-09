@@ -1,4 +1,4 @@
-Topic: 
+# Topic: 
     Time Efficiency Comparison of High-Speed Rail vs. Airplane
 
 
@@ -50,23 +50,23 @@ Documentation:
 
     Section 3: Results and Discussions
         Case 1: Current scenario
-            ![Case 1](case1_comparison.png)
+            ![Case 1](figures/case1_comparison.png)
             In this figure, the crossing point is at 824 km. This indicates that, with the current high-speed rail system, the competitive range is approximately 824 km. So if the destination is within about 800 km, high-speed rail would generally be the preferred option.
 
         Case 2: With one more stop in each high-speed rail segment
-            ![Case 2](case2_comparison.png)
+            ![Case 2](figures/case2_comparison.png)
             This case examines how the stop frequency of a train affects its competitive range. Typically, each stop adds about 6.5 minutes of time loss for high-speed rail. If the rail company adds just one additional stop in each segment, the competitive range decreases significantly—from 824 km to 720 km. This means the company may attract passengers traveling to the newly added stops, but it will lose passengers whose destinations fall between 720 and 824 km. In other words, there is a trade-off.
         
         Case 3: Shorter flight processing time
-            ![Case 3](case3_comparison.png)
+            ![Case 3](figures/case3_comparison.png)
             This case examines how flight processing time affects the competitive range. In my initial setting, the processing time is 60–90 minutes, but this value can vary. For example, during off-peak periods, it may drop to 40–60 minutes. In this scenario, the competitive range decreases to 685 km because flying becomes more convenient.
         
         Case 4: Longer flight processing time
-            ![Case 4](case4_comparison.png)
+            ![Case 4](figures/case4_comparison.png)
             However, during holidays, it can be a nightmare. Processing may take 80–120 minutes just to be safe. In this scenario, the competitive range exceeds 1000 km. People would prefer high-speed rail because the processing time for trains is much shorter than that for flights.
 
         Case 5: Extreme case: one more stop in each high-speed rail segment and shorter flight processing time
-            ![Case 5](case5_comparison.png)
+            ![Case 5](figures/case5_comparison.png)
             This case examines an extreme scenario: adding one additional stop and using off-peak flight processing time. In this situation, the competitive range becomes 594 km, which is greater than the distance between Tokyo and Osaka. This result indicates that high-speed rail is typically the faster option when traveling between these two cities.
 
     Section 4: Future directions and applications
