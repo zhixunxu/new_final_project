@@ -6,7 +6,21 @@
     This project aims to compare the time efficiency of high-speed rail and airplanes over different scenarios.
 
 
-Related files:
+## Related files
+    final_projects/
+    ├── README.md # Introduce the project and present results
+    ├── final_project.pdf # Final project presentation slides
+    ├── final_project.ipynb # Functions and main script for time-efficiency comparison
+    │ ├── function1: calculate_avg_total_time # Computes average total time cost
+    │ └── function2: draw_figure # Draws time-cost comparison figure
+    └── figures/
+    ├── case1_comparison.png # Current scenario
+    ├── case2_comparison.png # One more stop for HSR
+    ├── case3_comparison.png # Shorter flight processing time
+    ├── case4_comparison.png # Longer flight processing time
+    └── case5_comparison.png # Extreme case
+
+
     final_projects/
         README.md                                       # Introduce the project and present results
         final_project.pdf                               # Final project presentation slides
