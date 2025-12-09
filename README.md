@@ -22,7 +22,7 @@
 
 
 
-
+```
 Documentation:
     Section 1: Introduction
         Although airplanes travel much faster than high-speed rail, the overall travel time can sometimes be shorter for high-speed rail. This is because train stations are often more conveniently located and train procedures are much simpler. As a result, there exists a competitive distance, a range within which people are more likely to choose high-speed rail over flying. The purpose of this script is to obtain a time-efficiency comparison between airplanes and high-speed rail and to identify the competitive distance of high-speed rail under different scenarios. The comparison is made by estimating the total travel time required to go from one city to another using either high-speed rail or an airplane. The script then plots the required travel time for both modes across different distances, from which the competitive distance of high-speed rail can be determined. Finally, the script evaluates multiple scenarios to examine how the competitive distance changes under different assumptions.
@@ -73,6 +73,9 @@ Documentation:
 
     Section 4: Future directions and applications
         For future directions, several advanced modeling options can be incorporated into the analysis. For example, we can customize the access and return times for passengers taking flights. Adjusting the in-vehicle travel time for high-speed rail is another possibility. Japan’s maglev train, which can reach speeds over 600 km/hr, may also become available in the future and could be included in the model. In addition, we can explore different random sampling distributions, and delay factors for both trains and flights can be incorporated as well. The application of this model can help rail and airline companies better understand travel demand, and the analysis results can be used to optimize their operations.
+
+```
+
 
 Planned contributions of each team member:
     Zhi-Xun Xu: Model construction, follow-up analysis, and presentation
