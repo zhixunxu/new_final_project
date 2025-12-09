@@ -37,10 +37,10 @@ We consider a high-speed rail line in Japan from Tokyo to Hakata, which is over 
 3. In-vehicle travel time
     The in-vehicle travel times for high-speed rail and airplanes are obtained from the timetables provided by the rail and airline companies, as shown below.
     <pre style="white-space: pre-wrap;">
-    (1). Tokyo -> Nagoya    : 366    km,  97 mins (HSR),  60 mins (Flight)  
-    (2). Tokyo -> Osaka     : 552.6  km, 150 mins (HSR),  70 mins (Flight)  
-    (3). Tokyo -> Okayama   : 732.9  km, 190 mins (HSR),  80 mins (Flight)  
-    (4). Tokyo -> Hiroshima : 894.2  km, 230 mins (HSR),  90 mins (Flight)  
+    (1). Tokyo -> Nagoya    : 366    km,  97 mins (HSR),  60 mins (Flight)
+    (2). Tokyo -> Osaka     : 552.6  km, 150 mins (HSR),  70 mins (Flight)
+    (3). Tokyo -> Okayama   : 732.9  km, 190 mins (HSR),  80 mins (Flight)
+    (4). Tokyo -> Hiroshima : 894.2  km, 230 mins (HSR),  90 mins (Flight)
     (5). Tokyo -> Hekata    : 1174.9 km, 300 mins (HSR), 130 mins (Flight)
     </pre>
 
