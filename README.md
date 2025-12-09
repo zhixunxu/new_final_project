@@ -76,7 +76,7 @@
 ```
 
 
-Planned contributions of each team member:
+## Planned contributions of each team member:
     Zhi-Xun Xu: Model construction, follow-up analysis, and presentation
 
 
