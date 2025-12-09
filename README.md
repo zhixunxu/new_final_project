@@ -1,9 +1,7 @@
-# Topic: 
-    Time Efficiency Comparison of High-Speed Rail vs. Airplane
+# Topic: Time Efficiency Comparison of High-Speed Rail vs. Airplane
 
 
-Goal statement: 
-    This project aims to compare the time efficiency of high-speed rail and airplanes over different scenarios.
+## Goal statement: This project aims to compare the time efficiency of high-speed rail and airplanes over different scenarios.
 
 
 Related files:
