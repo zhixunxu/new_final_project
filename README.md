@@ -22,8 +22,8 @@
 
 
 ## Documentation:
-    Section 1: Introduction
-        Although airplanes travel much faster than high-speed rail, the overall travel time can sometimes be shorter for high-speed rail. This is because train stations are often more conveniently located and train procedures are much simpler. As a result, there exists a competitive distance, a range within which people are more likely to choose high-speed rail over flying. The purpose of this script is to obtain a time-efficiency comparison between airplanes and high-speed rail and to identify the competitive distance of high-speed rail under different scenarios. The comparison is made by estimating the total travel time required to go from one city to another using either high-speed rail or an airplane. The script then plots the required travel time for both modes across different distances, from which the competitive distance of high-speed rail can be determined. Finally, the script evaluates multiple scenarios to examine how the competitive distance changes under different assumptions.
+### Section 1: Introduction
+    Although airplanes travel much faster than high-speed rail, the overall travel time can sometimes be shorter for high-speed rail. This is because train stations are often more conveniently located and train procedures are much simpler. As a result, there exists a competitive distance, a range within which people are more likely to choose high-speed rail over flying. The purpose of this script is to obtain a time-efficiency comparison between airplanes and high-speed rail and to identify the competitive distance of high-speed rail under different scenarios. The comparison is made by estimating the total travel time required to go from one city to another using either high-speed rail or an airplane. The script then plots the required travel time for both modes across different distances, from which the competitive distance of high-speed rail can be determined. Finally, the script evaluates multiple scenarios to examine how the competitive distance changes under different assumptions.
 
 
     Section 2: Methodology
