@@ -75,7 +75,7 @@ This case examines an extreme scenario: adding one additional stop and using off
 For future directions, several advanced modeling options can be incorporated into the analysis. For example, we can customize the access and return times for passengers taking flights. Adjusting the in-vehicle travel time for high-speed rail is another possibility. Japan’s maglev train, which can reach speeds over 600 km/hr, may also become available in the future and could be included in the model. In addition, we can explore different random sampling distributions, and delay factors for both trains and flights can be incorporated as well. The application of this model can help rail and airline companies better understand travel demand, and the analysis results can be used to optimize their operations.
 
 
-## Planned contributions of each team member:
+## Contributions of each team member:
     Zhi-Xun Xu: Model construction, follow-up analysis, and presentation
 
 
