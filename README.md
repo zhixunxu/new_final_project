@@ -12,7 +12,7 @@ This project aims to compare the time efficiency of high-speed rail and airplane
         ├── final_project.pdf                               # Final project presentation slides
         ├── final_project.ipynb                             # Include the functions and the main script used to compare the time efficiency of high-speed rail and airplanes.
         │   ├── function1: calculate_avg_total_time         # This function calculates the average total time cost. Detailed documentation is available in the script’s markdown.
-        │   └── function2: draw_figure                      # This function draws a diagram showing the time cost comparison. Detailed documentation is available in the script’s markdown.
+        │   └── function2: generate_figure                  # This function draws a diagram showing the time cost comparison. Detailed documentation is available in the script’s markdown.
         └── figures/
             ├── case1_comparison.png                        # Current scenario
             ├── case2_comparison.png                        # With one more stop in each high-speed rail segment
